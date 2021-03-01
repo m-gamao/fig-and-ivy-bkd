@@ -6,13 +6,14 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.middleware.use ActionDispatch::Cookies    
-config.middleware.use ActionDispatch::Session::CookieStore
+
 
 module FigAndIvyBkd
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
+    config.middleware.use ActionDispatch::Cookies    
+config.middleware.use ActionDispatch::Session::CookieStore
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers

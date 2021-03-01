@@ -1,8 +1,7 @@
 https://medium.com/swlh/react-reactions-cfdde7f08dff
 
 Where I left off:
-"Now we can draw start to plan out what kind of actions a user will need. Of course, a user will need to create a username and password and will need to see there own data. We can take care of those needs with just two routesshow and create. We will add a third route so we have access to an action that will correspond to a list of all users and as per convention, this route will be named index. Here is the “config/routes.rb” so far."
--Just migrated the Users table.
+Phase 3: The React Client
 
 Questions:
 
